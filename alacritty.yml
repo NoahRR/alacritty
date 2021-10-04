@@ -67,7 +67,7 @@ window:
   #
   # Window opacity as a floating point number from `0.0` to `1.0`.
   # The value `0.0` is completely transparent and `1.0` is opaque.
-  # opacity: 1.0
+  opacity: 0.5
 
   # Startup Mode (changes require restart)
   #
@@ -426,8 +426,8 @@ font:
 #   - (macOS) /bin/bash --login
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
-#shell:
-#  program: /bin/bash
+shell:
+ program: /bin/zsh
 #  args:
 #    - --login
 
